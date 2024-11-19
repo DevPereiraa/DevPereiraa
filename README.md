@@ -4,7 +4,11 @@
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavopereira-dev?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BDfTmlcGvTamukHMmRbWCvg%3D%3D)
 
 <div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=DevPereiraa&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
+ <img 
+  src="https://github-readme-stats.vercel.app/api?username=DevPereiraa&show_icons=true&theme=tokyonight&cacheBuster=1234" 
+  height="150" 
+  alt="stats graph" 
+/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=DevPereiraa&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=tokyonight&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
 
