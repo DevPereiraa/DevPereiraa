@@ -1,6 +1,5 @@
 
 ## Gustavo Pereira
-[![Blog](https://img.shields.io/website?label=PortfolioUI/UX.com&style=for-the-badge&url=https://sujeitoprogramador.com/)](https://portfolio-gustavo-five.vercel.app)
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gustavopereira-dev?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BDfTmlcGvTamukHMmRbWCvg%3D%3D)
 
 <div align="left">
