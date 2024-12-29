@@ -14,7 +14,7 @@
 ## Tecnologias
 
 <div style="display: flex;">
-    <img src="https://skillicons.dev/icons?i=java,react,js,ts,nodejs,html,css,tailwind,git,github&theme=dark"
+    <img src="https://skillicons.dev/icons?i=java,react,next,js,ts,nodejs,html,css,tailwind,git,github&theme=dark"
 </div><br/>
 
 
