@@ -14,12 +14,12 @@
 ## Tecnologias
 
 <div style="display: flex;">
-    <img src="https://skillicons.dev/icons?i=java,react,next,js,ts,nodejs,html,css,tailwind,git,github&theme=dark"
+    <img src="https://skillicons.dev/icons?i=react,next,js,ts,nodejs,express,java,html,css,tailwind,git,github&theme=dark"
 </div><br/>
 
 
 Apaixonado por tecnologia e sempre em busca de aprimorar minhas habilidades e meu desenvolvimento pessoal.
 
-## Contatos:
+## Contatos
 
 - [📧 contatogustavopc@gmail.com](mailto:contatogustavopc@gmail.com "Envie um e-mail para mim")
