@@ -6,6 +6,8 @@ const USERNAME = process.env.GH_USERNAME || "DevPereiraa";
 const TOKEN = process.env.GH_STATS_TOKEN;
 const MOCK = process.env.MOCK === "1";
 const OUT = "assets";
+
+// ===== PERSONALIZAÇÃO (use null para voltar aos dados reais) =====
 const OVERRIDE = {
   rank: "A+", // S, A++, A+, A, B+, B, C  |  null = calculado de verdade
   langs: [    // [nome, porcentagem, cor]  |  null = linguagens reais
@@ -17,6 +19,7 @@ const OVERRIDE = {
     ["JavaScript", 5, "#f1e05a"],
   ],
 };
+// =================================================================
 
 const THEME = {
   bg: "#1a1b27",
@@ -143,6 +146,11 @@ const ICONS = {
 
 function statsSvg(d) {
   const rank = calcRank(d);
+  if (OVERRIDE.rank) {
+    const P = { S: 0.97, "A++": 0.92, "A+": 0.85, A: 0.75, "B+": 0.62, B: 0.5, C: 0.3 };
+    rank.level = OVERRIDE.rank;
+    rank.progress = P[OVERRIDE.rank] ?? rank.progress;
+  }
   const rows = [
     ["stars", "Total Stars:", fmt(d.stars)], ["commits", "Total Commits:", fmt(d.commits)],
     ["prs", "Total PRs:", fmt(d.prs)], ["issues", "Total Issues:", fmt(d.issues)],
@@ -198,6 +206,7 @@ if (!MOCK && !TOKEN) {
   process.exit(1);
 }
 const data = await fetchData();
+if (OVERRIDE.langs) data.langs = OVERRIDE.langs;
 mkdirSync(OUT, { recursive: true });
 writeFileSync(`${OUT}/stats.svg`, statsSvg(data));
 writeFileSync(`${OUT}/langs.svg`, langsSvg(data));
