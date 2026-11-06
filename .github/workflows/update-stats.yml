@@ -1,0 +1,32 @@
+name: Atualizar stats do perfil
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # a cada 12 horas
+  workflow_dispatch:          # permite rodar manualmente
+  push:
+    branches: [main]
+    paths: ["scripts/**", ".github/workflows/update-stats.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Gerar cards
+        env:
+          GH_STATS_TOKEN: ${{ secrets.GH_STATS_TOKEN }}
+          GH_USERNAME: ${{ github.repository_owner }}
+        run: node scripts/generate-stats.mjs
+      - name: Commit dos SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          git diff --staged --quiet || (git commit -m "chore: atualiza stats" && git push)
