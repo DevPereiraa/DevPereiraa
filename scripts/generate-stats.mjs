@@ -9,14 +9,14 @@ const OUT = "assets";
 
 // ===== PERSONALIZAÇÃO (use null para voltar aos dados reais) =====
 const OVERRIDE = {
-  rank: "A+", // S, A++, A+, A, B+, B, C  |  null = calculado de verdade
+  rank: "B", // S, A++, A+, A, B+, B, C  |  null = calculado de verdade
   langs: [    // [nome, porcentagem, cor]  |  null = linguagens reais
-    ["TypeScript", 30, "#3178c6"],
-    ["Rust", 22, "#dea584"],
-    ["Go", 18, "#00ADD8"],
-    ["Swift", 15, "#F05138"],
-    ["Python", 10, "#3572A5"],
-    ["JavaScript", 5, "#f1e05a"],
+    ["TypeScript", 28.5, "#3178c6"],
+    ["Rust", 22.2, "#dea584"],
+    ["Go", 18.7, "#00ADD8"],
+    ["Swift", 14.3, "#F05138"],
+    ["Python", 10.9, "#3572A5"],
+    ["JavaScript", 4.2, "#f1e05a"],
   ],
 };
 // =================================================================
