@@ -15,5 +15,5 @@
       <circle cx="6" cy="6" r="5" fill="#3572A5"/>
       <text x="20" y="11" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:13px;fill:#a9b1d6">Python 9.12%</text></g><g transform="translate(245, 142)">
       <circle cx="6" cy="6" r="5" fill="#f1e05a"/>
-      <text x="20" y="11" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:13px;fill:#a9b1d6">JavaScript 5.49%</text></g>
+      <text x="20" y="11" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:13px;fill:#a9b1d6">C++ 5.49%</text></g>
 </svg>
