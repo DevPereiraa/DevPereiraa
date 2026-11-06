@@ -2,18 +2,18 @@
   <rect x="0.5" y="0.5" rx="6" width="494" height="194" fill="#1a1b27" stroke="#e4e2e2" stroke-opacity="0.4"/>
   <text x="25" y="35" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:18px;font-weight:600;fill:#70a5fd">Most Used Languages</text>
   <clipPath id="c"><rect x="25" y="58" width="445" height="8" rx="4"/></clipPath>
-  <g clip-path="url(#c)"><rect x="25.00" y="58" width="128.37" height="8" fill="#3178c6"/><rect x="153.37" y="58" width="99.99" height="8" fill="#dea584"/><rect x="253.36" y="58" width="84.23" height="8" fill="#00ADD8"/><rect x="337.58" y="58" width="64.41" height="8" fill="#F05138"/><rect x="401.99" y="58" width="49.09" height="8" fill="#3572A5"/><rect x="451.08" y="58" width="18.92" height="8" fill="#f1e05a"/></g>
+  <g clip-path="url(#c)"><rect x="25.00" y="58" width="140.00" height="8" fill="#3178c6"/><rect x="165.00" y="58" width="97.14" height="8" fill="#dea584"/><rect x="262.14" y="58" width="77.39" height="8" fill="#00ADD8"/><rect x="339.53" y="58" width="65.46" height="8" fill="#F05138"/><rect x="404.99" y="58" width="40.58" height="8" fill="#3572A5"/><rect x="445.57" y="58" width="24.43" height="8" fill="#f1e05a"/></g>
   <g transform="translate(25, 92)">
       <circle cx="6" cy="6" r="5" fill="#3178c6"/>
-      <text x="20" y="11" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:13px;fill:#a9b1d6">TypeScript 28.50%</text></g><g transform="translate(245, 92)">
+      <text x="20" y="11" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:13px;fill:#a9b1d6">TypeScript 31.46%</text></g><g transform="translate(245, 92)">
       <circle cx="6" cy="6" r="5" fill="#dea584"/>
-      <text x="20" y="11" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:13px;fill:#a9b1d6">Rust 22.20%</text></g><g transform="translate(25, 117)">
+      <text x="20" y="11" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:13px;fill:#a9b1d6">Rust 21.83%</text></g><g transform="translate(25, 117)">
       <circle cx="6" cy="6" r="5" fill="#00ADD8"/>
-      <text x="20" y="11" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:13px;fill:#a9b1d6">Go 18.70%</text></g><g transform="translate(245, 117)">
+      <text x="20" y="11" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:13px;fill:#a9b1d6">Go 17.39%</text></g><g transform="translate(245, 117)">
       <circle cx="6" cy="6" r="5" fill="#F05138"/>
-      <text x="20" y="11" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:13px;fill:#a9b1d6">Swift 14.30%</text></g><g transform="translate(25, 142)">
+      <text x="20" y="11" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:13px;fill:#a9b1d6">Swift 14.71%</text></g><g transform="translate(25, 142)">
       <circle cx="6" cy="6" r="5" fill="#3572A5"/>
-      <text x="20" y="11" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:13px;fill:#a9b1d6">Python 10.90%</text></g><g transform="translate(245, 142)">
+      <text x="20" y="11" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:13px;fill:#a9b1d6">Python 9.12%</text></g><g transform="translate(245, 142)">
       <circle cx="6" cy="6" r="5" fill="#f1e05a"/>
-      <text x="20" y="11" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:13px;fill:#a9b1d6">JavaScript 4.20%</text></g>
+      <text x="20" y="11" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:13px;fill:#a9b1d6">JavaScript 5.49%</text></g>
 </svg>
