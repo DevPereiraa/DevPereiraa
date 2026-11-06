@@ -6,6 +6,17 @@ const USERNAME = process.env.GH_USERNAME || "DevPereiraa";
 const TOKEN = process.env.GH_STATS_TOKEN;
 const MOCK = process.env.MOCK === "1";
 const OUT = "assets";
+const OVERRIDE = {
+  rank: "A+", // S, A++, A+, A, B+, B, C  |  null = calculado de verdade
+  langs: [    // [nome, porcentagem, cor]  |  null = linguagens reais
+    ["TypeScript", 30, "#3178c6"],
+    ["Rust", 22, "#dea584"],
+    ["Go", 18, "#00ADD8"],
+    ["Swift", 15, "#F05138"],
+    ["Python", 10, "#3572A5"],
+    ["JavaScript", 5, "#f1e05a"],
+  ],
+};
 
 const THEME = {
   bg: "#1a1b27",
