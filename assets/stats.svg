@@ -10,7 +10,7 @@
     <g transform="translate(25, 87)">
       <svg viewBox="0 0 16 16" width="16" height="16"><path fill="#bf91f3" fill-rule="evenodd" d="M1.643 3.143.427 1.927A.25.25 0 0 0 0 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 0 0 .177-.427L2.715 4.215a6.5 6.5 0 1 1-1.18 4.458.75.75 0 1 0-1.493.154 8.001 8.001 0 1 0 1.6-5.684ZM7.75 4a.75.75 0 0 1 .75.75v2.992l2.028.812a.75.75 0 0 1-.557 1.392l-2.5-1A.751.751 0 0 1 7 8.25v-3.5A.75.75 0 0 1 7.75 4Z"/></svg>
       <text x="28" y="12" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:14px;font-weight:600;fill:#a9b1d6">Total Commits:</text>
-      <text x="170" y="12" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:14px;font-weight:700;fill:#38bdae">575</text>
+      <text x="170" y="12" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:14px;font-weight:700;fill:#38bdae">576</text>
     </g>
     <g transform="translate(25, 112)">
       <svg viewBox="0 0 16 16" width="16" height="16"><path fill="#bf91f3" fill-rule="evenodd" d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354Z"/></svg>
@@ -30,7 +30,7 @@
   <g transform="translate(400, 112)">
     <circle r="40" fill="none" stroke="#38bdae" stroke-opacity="0.2" stroke-width="6"/>
     <circle r="40" fill="none" stroke="#38bdae" stroke-width="6" stroke-linecap="round"
-      stroke-dasharray="251.33" stroke-dashoffset="37.70" transform="rotate(-90)"/>
-    <text text-anchor="middle" dominant-baseline="central" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:26px;font-weight:800;fill:#70a5fd">A+</text>
+      stroke-dasharray="251.33" stroke-dashoffset="125.66" transform="rotate(-90)"/>
+    <text text-anchor="middle" dominant-baseline="central" style="font-family:'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif;font-size:26px;font-weight:800;fill:#70a5fd">B</text>
   </g>
 </svg>
